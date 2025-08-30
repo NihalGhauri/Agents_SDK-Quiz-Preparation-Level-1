@@ -1,11 +1,11 @@
 from agents import (
-    Agent,
-    AsyncOpenAI,
-    OpenAIChatCompletionsModel,
-    Runner,
-    RunConfig,
-    set_tracing_export_api_key,
-)
+        Agent,
+        AsyncOpenAI,
+        OpenAIChatCompletionsModel,
+        Runner,
+        RunConfig,
+        set_tracing_export_api_key,
+    )
 import os
 from dotenv import load_dotenv
 load_dotenv()
